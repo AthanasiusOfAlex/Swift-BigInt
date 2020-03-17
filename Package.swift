@@ -3,6 +3,11 @@ import PackageDescription
 
 let package = Package(
     name: "BigInteger",
+    products: [
+        .library(
+            name: "BigInteger",
+            targets: ["BigInteger"]),
+    ],
     dependencies: [],
 	
     targets: [
