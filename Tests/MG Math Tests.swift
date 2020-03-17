@@ -6,7 +6,9 @@
 *   Copyright © 2017 Marcel Kröker. All rights reserved.
 */
 
+import XCTest
 import Foundation
+@testable import BigNumber
 
 public class MG_Math_Tests
 {

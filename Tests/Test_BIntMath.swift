@@ -7,6 +7,8 @@
 //
 
 import XCTest
+import Foundation
+@testable import BigNumber
 
 class Test_BIntMath: XCTestCase {
 
