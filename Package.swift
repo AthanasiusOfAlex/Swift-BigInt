@@ -8,7 +8,8 @@ let package = Package(
     targets: [
         .target(
             name: "BigInteger",
-            dependencies: []),
+            dependencies: [],
+	    path: "Sources"),
         //.testTarget(
         //    name: "BigIntegerTest",
         //    dependencies: ["BigInteger"]),
